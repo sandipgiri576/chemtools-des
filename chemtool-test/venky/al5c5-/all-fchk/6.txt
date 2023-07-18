@@ -1,0 +1,348 @@
+ Multiwfn -- A Multifunctional Wavefunction Analyzer
+ Version 3.8(dev), release date: 2022-Feb-12
+ Developer: Tian Lu (Beijing Kein Research Center for Natural Sciences)
+ Below paper ***MUST BE CITED*** if Multiwfn is utilized in your work:
+          Tian Lu, Feiwu Chen, J. Comput. Chem., 33, 580-592 (2012)
+ See "How to cite Multiwfn.pdf" in Multiwfn binary package for more information
+ Multiwfn official website: http://sobereva.com/multiwfn
+ Multiwfn English forum: http://sobereva.com/wfnbbs
+ Multiwfn Chinese forum: http://bbs.keinsci.com/wfn
+
+ ( Number of parallel threads:  12  Current date: 2023-07-14  Time: 18:46:51 )
+
+ Warning: You should set "KMP_STACKSIZE" environment variable as mentioned in Section 2.1.2 of Multiwfn manual!
+ 
+ Please wait...
+ Loading various information of the wavefunction
+ The highest angular moment basis functions is F
+ Loading basis set definition...
+ Loading orbitals...
+ Converting basis function information to GTF information...
+ Back converting basis function information from Cartesian to spherical type...
+ Generating density matrix based on SCF orbitals...
+ Generating overlap matrix...
+ 
+ Total/Alpha/Beta electrons:     96.0000     48.0000     48.0000
+ Net charge:    -1.00000      Expected multiplicity:    1
+ Atoms:     10,  Basis functions:    340,  GTFs:    600
+ Total energy:   -1401.929124594778 Hartree,   Virial ratio:  2.00229037
+ This is a restricted single-determinant wavefunction
+ Orbitals from 1 to    48 are occupied
+ Title line of this file: al5c5-6
+
+ Loaded ../6.fchk successfully!
+ 
+ Formula: C5 Al5 
+ Molecule weight:       194.96137 Da
+ Point group: C1 
+ 
+ "q": Exit program gracefully          "r": Load a new file
+                    ************ Main function menu ************
+ 0 Show molecular structure and view orbitals
+ 1 Output all properties at a point       2 Topology analysis
+ 3 Output and plot specific property in a line
+ 4 Output and plot specific property in a plane
+ 5 Output and plot specific property within a spatial region (calc. grid data)
+ 6 Check & modify wavefunction
+ 7 Population analysis and calculation of atomic charges
+ 8 Orbital composition analysis           9 Bond order analysis
+ 10 Plot total DOS, partial DOS, OPDOS, local DOS and photoelectron spectrum
+ 11 Plot IR/Raman/UV-Vis/ECD/VCD/ROA/NMR spectrum
+ 12 Quantitative analysis of molecular surface
+ 13 Process grid data (No grid data is presented currently)
+ 14 Adaptive natural density partitioning (AdNDP) analysis
+ 15 Fuzzy atomic space analysis
+ 16 Charge decomposition analysis (CDA) and plot orbital interaction diagram
+ 17 Basin analysis                       18 Electron excitation analysis
+ 19 Orbital localization analysis        20 Visual study of weak interaction
+ 21 Energy decomposition analysis        22 Conceptual DFT (CDFT) analysis
+ 23 ETS-NOCV analysis                    24 (Hyper)polarizability analysis
+ 25 Electron delocalization and aromaticity analyses
+ 100 Other functions (Part 1)            200 Other functions (Part 2)
+ 300 Other functions (Part 3)
+ Atom list:
+    1(C ) --> Charge:  6.000000  x,y,z(Bohr):   4.055475  -2.025900  -1.008667
+    2(Al) --> Charge: 13.000000  x,y,z(Bohr):   7.631834  -1.107387   0.069531
+    3(Al) --> Charge: 13.000000  x,y,z(Bohr):   3.187451   1.272389   1.092351
+    4(C ) --> Charge:  6.000000  x,y,z(Bohr):   1.706491  -1.975062  -1.319095
+    5(Al) --> Charge: 13.000000  x,y,z(Bohr):  -1.847185  -0.643788  -1.704125
+    6(Al) --> Charge: 13.000000  x,y,z(Bohr):  -2.491276   4.560808  -1.007581
+    7(C ) --> Charge:  6.000000  x,y,z(Bohr):  -0.405101   2.280275   1.177405
+    8(C ) --> Charge:  6.000000  x,y,z(Bohr):  -2.021998   0.536237   2.121055
+    9(C ) --> Charge:  6.000000  x,y,z(Bohr):  -3.639194  -1.261202   1.958705
+   10(Al) --> Charge: 13.000000  x,y,z(Bohr):  -6.340365  -2.953260   0.197792
+ Note: Orbital    48 is HOMO, energy:   -0.039512 a.u.   -1.075170 eV
+       Orbital    49 is LUMO, energy:    0.112816 a.u.    3.069893 eV
+       HOMO-LUMO gap:    0.152328 a.u.    4.145063 eV    399.937889 kJ/mol
+ 
+ "q": Exit program gracefully          "r": Load a new file
+                    ************ Main function menu ************
+ 0 Show molecular structure and view orbitals
+ 1 Output all properties at a point       2 Topology analysis
+ 3 Output and plot specific property in a line
+ 4 Output and plot specific property in a plane
+ 5 Output and plot specific property within a spatial region (calc. grid data)
+ 6 Check & modify wavefunction
+ 7 Population analysis and calculation of atomic charges
+ 8 Orbital composition analysis           9 Bond order analysis
+ 10 Plot total DOS, partial DOS, OPDOS, local DOS and photoelectron spectrum
+ 11 Plot IR/Raman/UV-Vis/ECD/VCD/ROA/NMR spectrum
+ 12 Quantitative analysis of molecular surface
+ 13 Process grid data (No grid data is presented currently)
+ 14 Adaptive natural density partitioning (AdNDP) analysis
+ 15 Fuzzy atomic space analysis
+ 16 Charge decomposition analysis (CDA) and plot orbital interaction diagram
+ 17 Basin analysis                       18 Electron excitation analysis
+ 19 Orbital localization analysis        20 Visual study of weak interaction
+ 21 Energy decomposition analysis        22 Conceptual DFT (CDFT) analysis
+ 23 ETS-NOCV analysis                    24 (Hyper)polarizability analysis
+ 25 Electron delocalization and aromaticity analyses
+ 100 Other functions (Part 1)            200 Other functions (Part 2)
+ 300 Other functions (Part 3)
+ 
+               ============ Other functions (Part 1) ============ 
+ 0 Return
+ 1 Draw scatter graph between two functions and generate their cube files
+ 2 Export various files (mwfn/pdb/xyz/wfn/wfx/molden/fch/47/mkl...) or generate input file of quantum chemistry programs
+ 3 Calculate molecular van der Waals Volume
+ 4 Integrate a function in whole space
+ 5 Show overlap integral between alpha and beta orbitals
+ 6 Monitor SCF convergence process of Gaussian
+ 8 Generate Gaussian input file with initial guess from fragment wavefunctions
+ 9 Evaluate interatomic connectivity and atomic coordination number
+ 11 Calculate overlap and centroid distance between two orbitals
+ 12 Biorthogonalization between alpha and beta orbitals
+ 13 Calculate HOMA and Bird aromaticity index
+ 14 Calculate LOLIPOP (LOL Integrated Pi Over Plane)
+ 15 Calculate intermolecular orbital overlap
+ 17 Generate Fock/KS matrix based on orbital energies and coefficients
+ 18 Yoshizawa's electron transport route analysis
+ 19 Generate promolecular .wfn file from fragment wavefunctions
+ 20 Calculate Hellmann-Feynman forces
+ 21 Calculate properties based on geometry information for specific atoms
+ 22 Detect pi orbitals, set occupation numbers and calculate pi composition
+ 23 Fit function distribution to atomic value
+ 24 Obtain NICS_ZZ value for non-planar or tilted system
+ Input indices of the atoms for which geometry information will be calculated
+ e.g. 1,3-6,8,10-11 means the atoms 1,3,4,5,6,8,10,11 will be considered
+ Input "all" will analyze the whole system, input "q" will exit
+   Other commands:
+ Input "size" will report size information of the whole system
+ Input "dist" will report contact/distance between two specific fragments
+ Input "MPP" will calculate molecular planarity parameter (MPP) and span of deviation from plane (SDP) for a fragment
+ Farthest distance:    2(Al)  ---   10(Al):     7.458 Angstrom
+ vdW radius of    2(Al): 1.730 Angstrom
+ vdW radius of   10(Al): 1.730 Angstrom
+ Diameter of the system:    10.918 Angstrom
+ Radius of the system:     5.459 Angstrom
+ Length of the three sides:    10.855     7.435     5.457 Angstrom
+ 
+ 0 Return
+ 1 Visualize the new orientation and molecular box
+ 2 Export the geometry in new orientation as new.pdb in current folder
+ 
+ Input indices of the atoms for which geometry information will be calculated
+ e.g. 1,3-6,8,10-11 means the atoms 1,3,4,5,6,8,10,11 will be considered
+ Input "all" will analyze the whole system, input "q" will exit
+   Other commands:
+ Input "size" will report size information of the whole system
+ Input "dist" will report contact/distance between two specific fragments
+ Input "MPP" will calculate molecular planarity parameter (MPP) and span of deviation from plane (SDP) for a fragment
+ Hint: You can also directly enter this function by inputting "MPP" in main menu of Multiwfn
+
+ If this function is employed in your work, please cite:
+ Tian Lu, Simple, reliable, and universal metrics of molecular planarity, J. Mol. Model., 27, 263 (2021) DOI: 10.1007/s00894-021-04884-0
+ 
+ Input index of the atoms for which data will be calculated, e.g. 2,3,7-10
+ Input "a" can choose all atoms, input "h" can choose all heavy atoms
+ 
+ Plane equation: A=   0.06664  B=  -0.09870  C=   0.99288  D=  -0.16852
+ 
+ Deviation of atom    1(C ) to the plane:  -0.37030 Angstrom
+ Deviation of atom    2(Al) to the plane:   0.27435 Angstrom
+ Deviation of atom    3(Al) to the plane:   0.53071 Angstrom
+ Deviation of atom    4(C ) to the plane:  -0.61890 Angstrom
+ Deviation of atom    5(Al) to the plane:  -1.01606 Angstrom
+ Deviation of atom    6(Al) to the plane:  -0.94464 Angstrom
+ Deviation of atom    7(C ) to the plane:   0.39606 Angstrom
+ Deviation of atom    8(C ) to the plane:   0.92593 Angstrom
+ Deviation of atom    9(C ) to the plane:   0.87748 Angstrom
+ Deviation of atom   10(Al) to the plane:  -0.05461 Angstrom
+ Maximal positive deviation to the fitted plane is    8(C ):   0.92593 Angstrom
+ Maximal negative deviation to the fitted plane is    5(Al):  -1.01606 Angstrom
+
+ Molecular planarity parameter (MPP) is    0.677420 Angstrom
+ Span of deviation from plane (SDP) is    1.941994 Angstrom
+ 
+ Do you want to export .pqr of the system, in which "charge" atomic properties of the selected atoms correspond to vertical distance to the fitted plane? (y/n)
+ 
+ Input indices of the atoms for which geometry information will be calculated
+ e.g. 1,3-6,8,10-11 means the atoms 1,3,4,5,6,8,10,11 will be considered
+ Input "all" will analyze the whole system, input "q" will exit
+   Other commands:
+ Input "size" will report size information of the whole system
+ Input "dist" will report contact/distance between two specific fragments
+ Input "MPP" will calculate molecular planarity parameter (MPP) and span of deviation from plane (SDP) for a fragment
+ 
+               ============ Other functions (Part 1) ============ 
+ 0 Return
+ 1 Draw scatter graph between two functions and generate their cube files
+ 2 Export various files (mwfn/pdb/xyz/wfn/wfx/molden/fch/47/mkl...) or generate input file of quantum chemistry programs
+ 3 Calculate molecular van der Waals Volume
+ 4 Integrate a function in whole space
+ 5 Show overlap integral between alpha and beta orbitals
+ 6 Monitor SCF convergence process of Gaussian
+ 8 Generate Gaussian input file with initial guess from fragment wavefunctions
+ 9 Evaluate interatomic connectivity and atomic coordination number
+ 11 Calculate overlap and centroid distance between two orbitals
+ 12 Biorthogonalization between alpha and beta orbitals
+ 13 Calculate HOMA and Bird aromaticity index
+ 14 Calculate LOLIPOP (LOL Integrated Pi Over Plane)
+ 15 Calculate intermolecular orbital overlap
+ 17 Generate Fock/KS matrix based on orbital energies and coefficients
+ 18 Yoshizawa's electron transport route analysis
+ 19 Generate promolecular .wfn file from fragment wavefunctions
+ 20 Calculate Hellmann-Feynman forces
+ 21 Calculate properties based on geometry information for specific atoms
+ 22 Detect pi orbitals, set occupation numbers and calculate pi composition
+ 23 Fit function distribution to atomic value
+ 24 Obtain NICS_ZZ value for non-planar or tilted system
+ 
+ "q": Exit program gracefully          "r": Load a new file
+                    ************ Main function menu ************
+ 0 Show molecular structure and view orbitals
+ 1 Output all properties at a point       2 Topology analysis
+ 3 Output and plot specific property in a line
+ 4 Output and plot specific property in a plane
+ 5 Output and plot specific property within a spatial region (calc. grid data)
+ 6 Check & modify wavefunction
+ 7 Population analysis and calculation of atomic charges
+ 8 Orbital composition analysis           9 Bond order analysis
+ 10 Plot total DOS, partial DOS, OPDOS, local DOS and photoelectron spectrum
+ 11 Plot IR/Raman/UV-Vis/ECD/VCD/ROA/NMR spectrum
+ 12 Quantitative analysis of molecular surface
+ 13 Process grid data (No grid data is presented currently)
+ 14 Adaptive natural density partitioning (AdNDP) analysis
+ 15 Fuzzy atomic space analysis
+ 16 Charge decomposition analysis (CDA) and plot orbital interaction diagram
+ 17 Basin analysis                       18 Electron excitation analysis
+ 19 Orbital localization analysis        20 Visual study of weak interaction
+ 21 Energy decomposition analysis        22 Conceptual DFT (CDFT) analysis
+ 23 ETS-NOCV analysis                    24 (Hyper)polarizability analysis
+ 25 Electron delocalization and aromaticity analyses
+ 100 Other functions (Part 1)            200 Other functions (Part 2)
+ 300 Other functions (Part 3)
+ 
+               ============ Other functions (Part 3) ============ 
+ 0 Return
+ 1 Viewing free regions and calculating free volume in a cell
+ 2 Fitting atomic radial density as linear combination of multiple STOs or GTFs
+ 3 Visualize (hyper)polarizability via unit sphere and vector representations
+ 4 Simulating scanning tunneling microscope (STM) image
+ 5 Calculate electric dipole/multipole moments and electronic spatial extent
+ 6 Calculate energies of the present orbitals
+ 7 Geometry operation on the present system
+ 8 Plot surface distance projection map
+ Calculating electric dipole, quadruple, octopole and Hexadecapole moment integral matrix...
+
+ X, Y, Z of center of positive charges (nuclear charges) in Angstrom
+   -0.000000   -0.000000    0.000000
+ X, Y, Z of center of negative charges (electronic charges) in Angstrom
+   -0.002895    0.001784    0.009191
+
+ Dipole moment from nuclear charges (a.u.):   -0.000000  -0.000000   0.000000
+ Dipole moment from electrons (a.u.):          0.525230  -0.323560  -1.667311
+ 
+ Dipole moment (a.u.):       0.525230     -0.323560     -1.667311
+ Dipole moment (Debye):      1.335001     -0.822407     -4.237882
+ Magnitude of dipole moment:      1.777775 a.u.      4.518653 Debye
+
+ Quadrupole moments (Standard Cartesian form):
+ XX= -117.671948  XY=    6.938443  XZ=    2.076964
+ YX=    6.938443  YY=  -85.744579  YZ=    2.008873
+ ZX=    2.076964  ZY=    2.008873  ZZ=  -80.690529
+ Quadrupole moments (Traceless Cartesian form):
+ XX=  -34.454394  XY=   10.407664  XZ=    3.115447
+ YX=   10.407664  YY=   13.436660  YZ=    3.013309
+ ZX=    3.115447  ZY=    3.013309  ZZ=   21.017734
+ Magnitude of the traceless quadrupole moment tensor:   34.731294
+ Quadrupole moments (Spherical harmonic form):
+ Q_2,0 =  21.017734   Q_2,-1=   3.479470   Q_2,1=   3.597408
+ Q_2,-2=  12.017735   Q_2,2 = -27.649912
+ Magnitude: |Q_2|=   37.090926
+
+ Octopole moments (Cartesian form):
+ XXX= -178.1700  YYY=  -84.6283  ZZZ=    7.1825  XYY=   44.8107  XXY=   35.0882
+ XXZ=  -23.2460  XZZ=   40.7562  YZZ=   -6.6000  YYZ=   14.3520  XYZ=  -42.0181
+ Octopole moments (Spherical harmonic form):
+ Q_3,0 =    20.5236  Q_3,-1=    14.1703  Q_3,1 =   181.4974
+ Q_3,-2=  -162.7353  Q_3,2 =   -72.8083  Q_3,-3=   150.1235  Q_3,3 =  -247.1337
+ Magnitude: |Q_3|=    385.9524
+
+ Hexadecapole moments:
+ XXXX=     -12549.0110  YYYY=      -3599.1815  ZZZZ=      -1348.9046
+ XXXY=       -116.3204  XXXZ=       -354.5188  YYYX=        302.4731
+ YYYZ=        110.2263  ZZZX=        -91.7075  ZZZY=         58.1663
+ XXYY=      -2488.3256  XXZZ=      -1904.5262  YYZZ=       -757.6958
+ XXYZ=        -28.9524  YYXZ=       -101.3630  ZZXY=         14.1820
+
+ Electronic spatial extent <r^2>:     2700.722874
+ Components of <r^2>:  X=    1875.709467  Y=     602.414438  Z=     222.598969
+ 
+ Note: Unless otherwise specified, all data shown above are in a.u.
+ 
+               ============ Other functions (Part 3) ============ 
+ 0 Return
+ 1 Viewing free regions and calculating free volume in a cell
+ 2 Fitting atomic radial density as linear combination of multiple STOs or GTFs
+ 3 Visualize (hyper)polarizability via unit sphere and vector representations
+ 4 Simulating scanning tunneling microscope (STM) image
+ 5 Calculate electric dipole/multipole moments and electronic spatial extent
+ 6 Calculate energies of the present orbitals
+ 7 Geometry operation on the present system
+ 8 Plot surface distance projection map
+ 
+ "q": Exit program gracefully          "r": Load a new file
+                    ************ Main function menu ************
+ 0 Show molecular structure and view orbitals
+ 1 Output all properties at a point       2 Topology analysis
+ 3 Output and plot specific property in a line
+ 4 Output and plot specific property in a plane
+ 5 Output and plot specific property within a spatial region (calc. grid data)
+ 6 Check & modify wavefunction
+ 7 Population analysis and calculation of atomic charges
+ 8 Orbital composition analysis           9 Bond order analysis
+ 10 Plot total DOS, partial DOS, OPDOS, local DOS and photoelectron spectrum
+ 11 Plot IR/Raman/UV-Vis/ECD/VCD/ROA/NMR spectrum
+ 12 Quantitative analysis of molecular surface
+ 13 Process grid data (No grid data is presented currently)
+ 14 Adaptive natural density partitioning (AdNDP) analysis
+ 15 Fuzzy atomic space analysis
+ 16 Charge decomposition analysis (CDA) and plot orbital interaction diagram
+ 17 Basin analysis                       18 Electron excitation analysis
+ 19 Orbital localization analysis        20 Visual study of weak interaction
+ 21 Energy decomposition analysis        22 Conceptual DFT (CDFT) analysis
+ 23 ETS-NOCV analysis                    24 (Hyper)polarizability analysis
+ 25 Electron delocalization and aromaticity analyses
+ 100 Other functions (Part 1)            200 Other functions (Part 2)
+ 300 Other functions (Part 3)
+
+ If this module is used in your work, please cite below paper together with Multiwfn original paper, in which all methods employed in this module are described
+ Tian Lu, Feiwu Chen, Acta Chimica Sinica, 69, 2393 (2011) http://sioc-journal.cn/Jwk_hxxb/CN/abstract/abstract340458.shtml
+ 
+        ================ Orbital composition analysis ===============
+ -10 Return
+ -2 Define fragment 2 (for option 4,5)
+ -1 Define fragment 1 (for option 1~6)
+ 1 Orbital composition analysis with Mulliken partition
+ 2 Orbital composition analysis with Stout-Politzer partition
+ 3 Orbital composition analysis with Ros-Schuit (SCPA) partition
+ 4 Print frag. 1 & inter-fragment compositions in all orbitals (Mulliken)
+ 5 Print frag. 1 & inter-fragment compositions in all orbitals (Stout-Politzer)
+ 6 Print frag. 1 compositions in all orbitals (SCPA)
+ 7 Orbital composition analysis by natural atomic orbital (NAO) method
+ 8 Calculate atom and fragment contributions by Hirshfeld method
+ 9 Calculate atom and fragment contributions by Becke method
+ 10 Calculate atom and fragment contributions by Hirshfeld-I method
+ 11 Calculate atom and fragment contributions by AIM method
+ 100 Evaluate oxidation state by LOBA method
