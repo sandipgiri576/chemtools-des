@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # ChemTools is a collection of interpretive chemical tools for
-# analyzing outputs of the quantum chemistry calculations.
+# analyzing outputs of the quantum chemistry results.
 #
 # Copyright (C) 2016-2019 The ChemTools Development Team
 #
